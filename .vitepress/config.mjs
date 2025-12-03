@@ -23,6 +23,12 @@ export default defineConfig({
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/pan45724/my-wiki' }
-    ]
+    ],
+    search: {
+      provider: 'local'
+    },
+    sitemap: {
+      hostname: 'https://882299.xyz'
+    }
   }
 })
