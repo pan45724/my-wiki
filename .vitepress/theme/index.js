@@ -1,7 +1,6 @@
 // .vitepress/theme/index.js
 import DefaultTheme from 'vitepress/theme'
 import { h } from 'vue'
-import './custom.css' // 如果你想写样式
 
 export default {
   extends: DefaultTheme,
@@ -13,7 +12,7 @@ export default {
         }, [
           '📢 广告：域名还没买？',
           h('a', { 
-            href: 'https://www.namesilo.com/?rid=你的推荐ID', 
+            href: 'https://www.namesilo.com/?rid=dcb5c45jv', 
             target: '_blank',
             style: 'color: #3eaf7c; font-weight: bold; margin-left: 5px;'
           }, '去 NameSilo 注册，首年 $1 起！')
