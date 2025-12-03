@@ -7,16 +7,15 @@ export default defineConfig({
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: 'Home', link: '/' },
-      { text: '文档', link: '/CICD-java-local-enviroment' }
+      { text: '主页', link: '/' },
+      { text: '文档', link: '/Gogs-Jenkins-docker-environment-build' }
     ],
 
     sidebar: [
       {
         text: '实战教程',
         items: [
-          { text: 'jenkins java cicd 环境搭建', link: '/CICD-java-local-enviroment' },
-          { text: 'java 开发环境搭建', link: '/Gogs-Jenkins-docker-environment-build' },
+          { text: 'Gogs、Jenkins、docker CI/CD 本地环境搭建', link: '/Gogs-Jenkins-docker-environment-build' },
           { text: 'windows openWrt旁路由搭建', link: '/Windows-Hyper-V-buile-OpenWrt-other-router' },
         ]
       }
