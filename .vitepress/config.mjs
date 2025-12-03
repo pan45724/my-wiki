@@ -8,21 +8,22 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
+      { text: '文档', link: '/CICD-java-local-enviroment' }
     ],
 
     sidebar: [
       {
-        text: 'Examples',
+        text: '实战教程',
         items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
+          { text: 'jenkins java cicd 环境搭建', link: '/CICD-java-local-enviroment' },
+          { text: 'java 开发环境搭建', link: '/Gogs-Jenkins-docker-environment-build' },
+          { text: 'windows openWrt旁路由搭建', link: '/Windows-Hyper-V-buile-OpenWrt-other-router' },
         ]
       }
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'github', link: 'https://github.com/pan45724/my-wiki' }
     ]
   }
 })
