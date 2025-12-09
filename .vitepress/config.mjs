@@ -18,6 +18,7 @@ export default defineConfig({
           { text: 'Gogs、Jenkins、docker CI/CD 本地环境搭建', link: '/Gogs-Jenkins-docker-environment-build' },
           { text: 'windows openWrt旁路由搭建', link: '/Windows-Hyper-V-buile-OpenWrt-other-router' },
           { text: '零成本全栈 AI 代理网站搭建', link: '/Free-AI-Website-For-Agents.md' },
+          { text: '文档管理', link: '/wiki-manage.md' },
         ]
       }
     ],
