@@ -4,22 +4,21 @@ layout: home
 
 hero:
   name: "my-wiki"
-  text: "wiki"
   tagline: My great project tagline
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: 文档库
+      link: /Gogs-Jenkins-docker-environment-build
     - theme: alt
-      text: API Examples
+      text: 思路路线图
       link: /api-examples
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: 后端架构师
+    details: 金融保险领域大型项目从0到1开发实战
+  - title: 团队负责人
+    details: 从人力招聘到人员培养、项目管理。
+  - title: AI先行者
+    details: 探索实现AI领域落地方案
 ---
 

@@ -20,6 +20,12 @@ export default defineConfig({
           { text: '零成本全栈 AI 代理网站搭建', link: '/Free-AI-Website-For-Agents.md' },
           { text: '文档管理', link: '/wiki-manage.md' },
         ]
+      },
+      {
+        text: '变现', // 新分类的标题
+        items: [
+          { text: '维修', link: '/fixman.md' }, 
+        ]
       }
     ],
 
