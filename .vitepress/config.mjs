@@ -10,13 +10,8 @@ export default defineConfig({
       { text: '主页', link: '/' },
       { text: '文档', link: '/Gogs-Jenkins-docker-environment-build' },
       { 
-        text: '联系我', 
-        items: [
-          { 
-            text: 'admin@475462.xyz (点击发送邮件)', 
-          },
-          
-        ]
+        text: '联系我admin@475462.xyz', 
+        link: 'mailto:admin@475462.xyz'
       }
     ],
 
