@@ -8,7 +8,11 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: '主页', link: '/' },
-      { text: '文档', link: '/Gogs-Jenkins-docker-environment-build' }
+      { text: '文档', link: '/Gogs-Jenkins-docker-environment-build' },
+      { 
+        text: '联系我', 
+        link: 'mailto:admin@475462.xyz'
+      }
     ],
 
     sidebar: [
