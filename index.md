@@ -4,7 +4,7 @@ layout: home
 
 hero:
   name: "my-wiki"
-  tagline: My great project tagline
+  tagline: My great project
   actions:
     - theme: brand
       text: 文档库
