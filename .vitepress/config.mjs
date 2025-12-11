@@ -23,6 +23,8 @@ export default defineConfig({
           { text: 'windows openWrt旁路由搭建', link: '/Windows-Hyper-V-buile-OpenWrt-other-router' },
           { text: '零成本全栈 AI 代理网站搭建', link: '/Free-AI-Website-For-Agents.md' },
           { text: '文档管理', link: '/wiki-manage.md' },
+          { text: 'lobe agent 安装（支持中文）', link: '/lobe-ai-agent-install' },
+
         ]
       },
       {
