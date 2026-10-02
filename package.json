@@ -1,17 +1,20 @@
 {
   "name": "my-wiki",
   "version": "1.0.0",
-  "main": "index.js",
+  "private": true,
+  "type": "module",
+  "description": "后端架构、团队管理与 AI 落地的实战笔记（VitePress 静态站点）",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "docs:dev": "vitepress dev",
     "docs:build": "vitepress build",
     "docs:preview": "vitepress preview"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
+  "keywords": [
+    "vitepress",
+    "wiki",
+    "notes"
+  ],
+  "license": "MIT",
   "devDependencies": {
     "vitepress": "^1.6.4"
   }

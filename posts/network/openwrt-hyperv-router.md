@@ -1,7 +1,7 @@
-这份文档基于您之前的实际操作经历整理而成，涵盖了从架构选择、环境准备、详细部署步骤到故障排查的全过程。
-
-你可以将以下内容保存为 `OpenWrt_Gateway_Setup.md` 文件。
-
+---
+title: Hyper-V 部署 OpenWrt 旁路由（透明代理网关）
+description: 在 Windows 10/11 Pro 上用 Hyper-V 部署 ImmortalWrt 旁路由，含虚拟交换机配置、镜像格式转换、Web 端代理设置与 4 个典型故障排查。
+tags: [openwrt, hyperv, 旁路由, 透明代理]
 ---
 
 # Windows Hyper-V 部署 OpenWrt 旁路由（透明代理网关）技术文档

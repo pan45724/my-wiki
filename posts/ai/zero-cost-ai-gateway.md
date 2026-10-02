@@ -1,3 +1,9 @@
+---
+title: 零成本全栈 AI 代理站（Big-AGI + OneAPI + TiDB + Render）
+description: 用 Big-AGI、OneAPI、TiDB Cloud、Render、Vercel 的免费额度拼出一个支持多模型分栏对比的 AI 代理站，附 5 个踩坑排查。
+tags: [ai, big-agi, oneapi, 免费部署]
+---
+
 # 🚀 零成本全栈 AI 代理网站搭建指南
 
 本文档记录了基于 **Big-AGI (前端)** + **OneAPI (后端策略)** + **TiDB (数据库)** + **Render (容器托管)** 的完全免费搭建方案。支持多模型分栏对比 (Side-by-side)、API 分流策略及持久化配置。

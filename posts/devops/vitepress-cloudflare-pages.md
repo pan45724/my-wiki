@@ -1,6 +1,9 @@
-***
+---
+title: VitePress + Cloudflare Pages 部署指南
+description: 从零初始化 VitePress、推到 GitHub、用 Cloudflare Pages 自动构建发布，含 Node 版本、样式 404、自定义域名三个高频问题的解法。
+tags: [vitepress, cloudflare, github, 静态站点]
+---
 
-````markdown
 # VitePress 部署指南：GitHub + Cloudflare Pages
 
 本文档将指导你如何将 VitePress 构建的 Wiki 文档托管到 GitHub，并通过 Cloudflare Pages 实现自动构建与免费发布。
@@ -145,4 +148,3 @@ Cloudflare 会监听 GitHub 的变动，自动触发重新打包和发布。
 1. 在 Cloudflare 项目页面 > **Custom domains**。
 2. 点击 **Set up a custom domain**。
 3. 输入你的域名（如 `wiki.yourdomain.com`），按照提示配置 DNS 记录即可。
-````

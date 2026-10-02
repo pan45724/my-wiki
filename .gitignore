@@ -1,1 +1,12 @@
 node_modules/
+
+# VitePress 构建产物与缓存
+.vitepress/dist
+.vitepress/cache
+
+# 系统与编辑器
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.log

@@ -1,5 +1,7 @@
-这是一份基于我们完整实战过程整理的 **Gogs、Jenkins、docker CI/CD 本地环境搭建**。你可以将其保存为 `README.md` 或录入团队 Wiki，作为后续维护和新人入手的参考。
-
+---
+title: 本地 Java CI/CD 环境搭建（Gogs + Jenkins + Docker）
+description: 用 Docker Compose 在本地搭一套 Gogs 代码仓库 + Jenkins LTS + Java 构建节点的完整 CI/CD 流水线，附 6 个常见故障的排查记录。
+tags: [docker, jenkins, gogs, cicd, java]
 ---
 
 # 📘 本地 Java CI/CD 环境搭建知识库

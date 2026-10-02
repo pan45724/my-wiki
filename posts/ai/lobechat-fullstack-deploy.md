@@ -1,3 +1,9 @@
+---
+title: LobeChat 全栈部署（Vercel + Neon + R2）
+description: LobeChat + OneAPI + Neon Postgres + Cloudflare R2 的免费全栈部署方案，支持多端数据同步，含环境变量配置与 4 个报错排查。
+tags: [ai, lobechat, vercel, neon, r2]
+---
+
 # 🚀 LobeChat 全栈部署指南 (Vercel + Neon + R2)
 
 本文档记录了基于 **LobeChat (前端)** + **OneAPI (模型中转)** + **Neon (数据库)** + **Cloudflare R2 (文件存储)** 的免费全栈部署方案。此方案支持多端数据同步（手机/电脑互通）。
