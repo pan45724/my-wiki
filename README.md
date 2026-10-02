@@ -16,9 +16,11 @@
 │   ├── ai/                     # AI 自建服务
 │   ├── devops/                 # 网站搭建与部署
 │   ├── biz/                    # 变现与引流
+│   ├── tools/                  # 自制工具
 │   └── _drafts/                # 草稿（不参与构建）
 ├── public/                     # 静态资源，原样拷到站点根目录
-│   └── img/                    # 文章配图，按文章名建子目录
+│   ├── img/                    # 文章配图，按文章名建子目录
+│   └── quiz/                   # 软考刷题站单文件（默认 gitignore，见下）
 └── .vitepress/
     ├── config.mjs              # 站点配置：nav / sidebar / 广告开关都在这
     └── theme/                  # 自定义主题
@@ -72,8 +74,27 @@ tags: [标签1, 标签2]
 | Build output directory | `.vitepress/dist` |
 | Node 版本 | 环境变量 `NODE_VERSION=20` |
 
-详细步骤见 [VitePress + Cloudflare Pages 部署指南](https://github.com/pan45724/my-wiki)。
+详细步骤见 [VitePress + Cloudflare Pages 部署指南](/posts/devops/vitepress-cloudflare-pages)。
 
-## License
+### 老链接跳转
 
-MIT
+`public/_redirects` 里维护了目录重构前的旧 URL → 新 URL 的 301 规则（Cloudflare Pages 原生支持，会原样拷到构建产物根目录）。以后再有文章改路径，往这里追加一行，别让站外引用和搜索结果变成 404。
+
+### 挂载软考刷题站
+
+`posts/tools/pmp-quiz.md` 是这个仓库里的刷题站介绍页，导航里已有入口。
+
+刷题站本体是一个自包含的单文件 HTML。要让它通过 `/quiz/` 访问：
+
+```bash
+cp <单文件路径> public/quiz/index.html
+npm run docs:build
+```
+
+`public/quiz/` 默认在 `.gitignore` 里——**题目来自历年真题与配套讲义，公开仓库发布这些内容有版权风险**。确认没问题后，删掉 `.gitignore` 里那一行再提交。
+
+## 版权
+
+站内文章与配图版权归作者所有，**未经许可请勿全文转载或用于商业用途**。需要转载请联系 [admin@475462.xyz](mailto:admin@475462.xyz)。
+
+仓库中的构建配置与主题代码（`.vitepress/`、`package.json` 等）可自由参考使用。

@@ -42,6 +42,7 @@ export default defineConfig({
           { text: '网站搭建', link: '/posts/devops/vitepress-cloudflare-pages' }
         ]
       },
+      { text: '软考刷题', link: '/posts/tools/pmp-quiz' },
       { text: '关于我', link: '/about' },
       { text: '联系', link: `mailto:${EMAIL}` }
     ],
@@ -70,6 +71,12 @@ export default defineConfig({
         text: '网站搭建',
         items: [
           { text: 'VitePress + Cloudflare Pages', link: '/posts/devops/vitepress-cloudflare-pages' }
+        ]
+      },
+      {
+        text: '自制工具',
+        items: [
+          { text: '软考刷题平台', link: '/posts/tools/pmp-quiz' }
         ]
       },
       {

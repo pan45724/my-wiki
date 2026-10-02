@@ -13,3 +13,7 @@ Thumbs.db
 
 # VitePress 构建时的临时配置文件
 .vitepress/*.timestamp-*.mjs
+
+# 刷题站单文件：含真题与讲义内容，默认不进公开仓库
+# 需要挂到站点上时，把单文件放到 public/quiz/index.html，并去掉下面这行
+public/quiz/

@@ -30,6 +30,10 @@ features:
     details: 从招聘、培养到项目管理，以及技术变现的可行路径
     link: /posts/biz/repair-monetization
     linkText: 维修变现路线
+  - title: 软考刷题
+    details: 自己搭的中级系统集成项目管理工程师刷题平台，1978 道单选 + 113 组案例
+    link: /posts/tools/pmp-quiz
+    linkText: 刷题平台
 ---
 
 ## 这里的文章
@@ -42,3 +46,4 @@ features:
 - **[Hyper-V 部署 OpenWrt 旁路由](/posts/network/openwrt-hyperv-router)** — Windows 上做透明代理网关
 - **[VitePress + Cloudflare Pages](/posts/devops/vitepress-cloudflare-pages)** — 这个站本身是怎么搭起来的
 - **[数码维修变现路线](/posts/biz/repair-monetization)** — 技术能力怎么变成收入
+- **[软考刷题平台](/posts/tools/pmp-quiz)** — 备考中级系统集成项目管理工程师时自己搭的，1978 道单选 + 113 组案例，纯静态单文件

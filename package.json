@@ -14,7 +14,7 @@
     "wiki",
     "notes"
   ],
-  "license": "MIT",
+  "license": "UNLICENSED",
   "devDependencies": {
     "vitepress": "^1.6.4"
   }

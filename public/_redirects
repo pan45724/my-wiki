@@ -1,0 +1,22 @@
+# 老 URL 301 跳转
+# 目录重构后保留原有链接，避免已收录页面和站外引用变成 404
+# 格式：来源  目标  状态码
+
+/Gogs-Jenkins-docker-environment-build            /posts/cicd/gogs-jenkins-docker            301
+/Gogs-Jenkins-docker-environment-build.html       /posts/cicd/gogs-jenkins-docker            301
+/Windows-Hyper-V-buile-OpenWrt-other-router       /posts/network/openwrt-hyperv-router       301
+/Windows-Hyper-V-buile-OpenWrt-other-router.html  /posts/network/openwrt-hyperv-router       301
+/Free-AI-Website-For-Agents                       /posts/ai/zero-cost-ai-gateway             301
+/Free-AI-Website-For-Agents.html                  /posts/ai/zero-cost-ai-gateway             301
+/lobe-ai-agent-install                            /posts/ai/lobechat-fullstack-deploy        301
+/lobe-ai-agent-install.html                       /posts/ai/lobechat-fullstack-deploy        301
+/wiki-manage                                      /posts/devops/vitepress-cloudflare-pages   301
+/wiki-manage.html                                 /posts/devops/vitepress-cloudflare-pages   301
+/fixman                                           /posts/biz/repair-monetization             301
+/fixman.html                                      /posts/biz/repair-monetization             301
+
+# VitePress 模板自带的示例页已删除，回首页
+/api-examples                                     /                                          301
+/api-examples.html                                /                                          301
+/markdown-examples                                /                                          301
+/markdown-examples.html                           /                                          301
