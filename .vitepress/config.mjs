@@ -19,6 +19,10 @@ export default defineConfig({
   sitemap: { hostname: HOSTNAME },
   markdown: { lineNumbers: true },
 
+  head: [
+    ['link', { rel: 'icon', type: 'image/svg+xml', href: '/favicon.svg' }]
+  ],
+
   // 把 frontmatter 里的 description 注入成 <meta name="description">
   transformPageData(pageData) {
     const description = pageData.frontmatter.description
