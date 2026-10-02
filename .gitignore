@@ -10,3 +10,6 @@ Thumbs.db
 .idea/
 .vscode/
 *.log
+
+# VitePress 构建时的临时配置文件
+.vitepress/*.timestamp-*.mjs
